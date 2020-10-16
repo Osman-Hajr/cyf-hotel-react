@@ -1,0 +1,87 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin: 1rem;
+}
+
+.App-header {
+  display: flex;
+  background-color: rgba(236, 9, 217, 0.952);
+  height: 140px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.App-title {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.5em;
+}
+
+.App-content {
+  padding-top: 20px;
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.search {
+  padding: 5px 0 20px 0;
+}
+
+.tr {
+  color: #5b5757;
+}
+
+.results {
+  padding-top: 15px;
+}
+
+.footer {
+  background-color: rgb(231, 45, 191);
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer > ul {
+  list-style: none;
+}
+.card {
+  width: 27rem;
+}
+.highlight {
+  background-color: rgb(203, 206, 211);
+}
+.white-color {
+  background-color: white;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.table-header {
+  background-color: rgb(18, 1, 253);
+  color: #fff;
+}
+.list-orders {
+  list-style: none;
+}
+ .cust-li-elem{
+   list-style: none;
+ }
